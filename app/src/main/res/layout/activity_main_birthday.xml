@@ -7,10 +7,13 @@
     tools:context=".MainBirthday">
 
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="500dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/birthday"
-        android:background="@android:color/darker_gray"
+        android:background="@color/blue"
+        android:textColor="@color/colorPrimary"
+        android:textSize="45sp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
         />
 
 </android.support.constraint.ConstraintLayout>
